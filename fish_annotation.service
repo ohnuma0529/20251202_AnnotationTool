@@ -1,0 +1,13 @@
+[Unit]
+Description=Fish Annotation Tool Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ohnuma/Marine/20251202_AnnotationTool
+ExecStart=/bin/bash /home/ohnuma/Marine/20251202_AnnotationTool/start_server.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

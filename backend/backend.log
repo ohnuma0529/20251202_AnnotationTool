@@ -1,0 +1,39 @@
+INFO:     Started server process [2876369]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Loading YOLO model from ../weights/detect/all.pt...
+YOLO model loaded.
+Loading YOLO Seg model from ../weights/seg/seg.pt...
+Initializing YOLOModel with weights: ../weights/seg/seg.pt
+Initializing YOLOSegModel with weights: ../weights/seg/seg.pt
+YOLO Seg model loaded.
+Loading SAM model from ../weights/sam2.1_l.pt...
+Initializing SAM2Model with weights: ../weights/sam2.1_l.pt
+SAM model loaded.
+INFO:     172.16.12.53:56691 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     172.16.12.53:56691 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 188 cached frames.
+INFO:     172.16.12.53:59752 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:65075 - "GET /static/frames/GX010103/GX010103_T00M00S_0.jpg HTTP/1.1" 304 Not Modified
+INFO:     172.16.12.53:59752 - "OPTIONS /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:56691 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:59752 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:51203 - "OPTIONS /api/export HTTP/1.1" 200 OK
+INFO:     172.16.12.53:51203 - "POST /api/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47622 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47622 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 188 cached frames.
+INFO:     127.0.0.1:47622 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47622 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47636 - "OPTIONS /api/process HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47622 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37948 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37948 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 188 cached frames.
+INFO:     127.0.0.1:37948 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37948 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37950 - "POST /api/process HTTP/1.1" 200 OK

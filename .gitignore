@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# VS Code
+.vscode/
+
+# Project Specific
+data/frames/
+data/crops/
+data/transcriptions/
+# Keep annotations? Maybe yes, maybe no. Usually data is separate.
+# But for now let's ignore large data.
+# data/annotations/ 
+# If the user wants to version control annotations, we should keep them.
+# But usually large datasets are gitignored.
+# Let's ignore videos for sure.
+data/videos/
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mov
+*.MOV
+*.mkv
+*.MKV
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+# Large files
+weights/
+

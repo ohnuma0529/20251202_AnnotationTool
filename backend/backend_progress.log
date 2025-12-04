@@ -1,0 +1,1057 @@
+INFO:     Started server process [2894895]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Loading YOLO model from ../weights/detect/all.pt...
+YOLO model loaded.
+Loading YOLO Seg model from ../weights/seg/seg.pt...
+Initializing YOLOModel with weights: ../weights/seg/seg.pt
+Initializing YOLOSegModel with weights: ../weights/seg/seg.pt
+YOLO Seg model loaded.
+Loading SAM model from ../weights/sam2.1_l.pt...
+Initializing SAM2Model with weights: ../weights/sam2.1_l.pt
+SAM model loaded.
+Extracting frames from /home/ohnuma/Marine/onlyvideo/DJI_20250808070331_0001_D.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/DJI_20250808070331_0001_D (rate=1.0)
+INFO:     172.16.12.53:52679 - "POST /api/process HTTP/1.1" 404 Not Found
+INFO:     172.16.12.53:53589 - "GET /api/annotations?video_name=DJI_20250808070331_0001_D&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53589 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53589 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53589 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53589 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+INFO:     172.16.12.53:52679 - "POST /api/process HTTP/1.1" 404 Not Found
+INFO:     172.16.12.53:63611 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+Saved frame 1: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M00S_0.jpg (Fish detected)
+INFO:     172.16.12.53:63611 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:63611 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:63611 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/DJI_20250508114125_0006_D.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/DJI_20250508114125_0006_D (rate=1.0)
+Found 227 cached frames.
+INFO:     172.16.12.53:63611 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FDJI_20250508114125_0006_D.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:63611 - "GET /api/annotations?video_name=DJI_20250508114125_0006_D&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:63430 - "GET /data/crops/DJI_20250508114125_0006_D_T00M00S_0_fish_1764772848868_0.jpg HTTP/1.1" 200 OK
+Saved frame 2: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M04S_145.jpg (Fish detected)
+INFO:     172.16.12.53:63611 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 3: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M10S_319.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 4: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M12S_377.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 5: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M13S_406.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 6: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M14S_435.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 7: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M15S_464.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 8: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M17S_522.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 9: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M18S_551.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 10: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M19S_580.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 11: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M20S_609.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 12: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M21S_638.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 13: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M22S_667.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52679 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 14 cached frames.
+INFO:     172.16.12.53:52679 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52879 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:61027 - "GET /data/crops/DJI_20250508114125_0006_D_T00M00S_0_fish_1764772850759_0.jpg HTTP/1.1" 200 OK
+Saved frame 14: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M27S_812.jpg (Fish detected)
+INFO:     172.16.12.53:52679 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52879 - "POST /api/process HTTP/1.1" 200 OK
+Saved frame 15: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M28S_841.jpg (Fish detected)
+Saved frame 16: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M29S_870.jpg (Fish detected)
+Saved frame 17: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M29S_899.jpg (Fish detected)
+Saved frame 18: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M30S_928.jpg (Fish detected)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     172.16.12.53:52879 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 19: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M31S_957.jpg (Fish detected)
+Saved frame 20: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M32S_986.jpg (Fish detected)
+Saved frame 21: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M33S_1015.jpg (Fish detected)
+Saved frame 22: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M34S_1044.jpg (Fish detected)
+Saved frame 23: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M35S_1073.jpg (Fish detected)
+Extracting frames from /home/ohnuma/Marine/onlyvideo/DJI_20250508114125_0006_D.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/DJI_20250508114125_0006_D (rate=1.0)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/DJI_20250508114125_0006_D/transcription.json
+Transcription found.
+Found 227 cached frames.
+INFO:     172.16.12.53:64879 - "GET /api/transcription?video_name=DJI_20250508114125_0006_D HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+INFO:     172.16.12.53:59791 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FDJI_20250508114125_0006_D.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:55763 - "GET /api/annotations?video_name=DJI_20250508114125_0006_D&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:59791 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:55104 - "GET /data/crops/DJI_20250508114125_0006_D_T00M00S_0_fish_1764772878984_0.jpg HTTP/1.1" 200 OK
+Saved frame 24: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M37S_1131.jpg (Fish detected)
+Saved frame 25: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M38S_1160.jpg (Fish detected)
+Saved frame 26: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M39S_1189.jpg (Fish detected)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     172.16.12.53:59791 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 27: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M41S_1247.jpg (Fish detected)
+INFO:     172.16.12.53:57647 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:55763 - "POST /api/process HTTP/1.1" 200 OK
+Saved frame 28: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M42S_1276.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 29: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M43S_1305.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 30: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M44S_1334.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 31: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M45S_1363.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 32: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M46S_1392.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 33: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M47S_1421.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 34: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M48S_1450.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 35: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M49S_1479.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 36: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M50S_1508.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 37: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M51S_1537.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 38: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M52S_1566.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 39: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M53S_1595.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 40: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M54S_1624.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 41: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M55S_1653.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 42: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M56S_1682.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 43: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M57S_1711.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 44: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M58S_1740.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 45: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M59S_1769.jpg (Fish detected)
+Saved frame 46: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T00M59S_1798.jpg (Fish detected)
+INFO:     172.16.12.53:55763 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+Saved frame 47: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M00S_1827.jpg (Fish detected)
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 47 cached frames.
+INFO:     172.16.12.53:55763 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52429 - "GET /api/progress/GX010103 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:61041 - "GET /data/crops/DJI_20250508114125_0006_D_T00M00S_0_fish_1764772882671_0.jpg HTTP/1.1" 200 OK
+INFO:     172.16.12.53:55763 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:52429 - "POST /api/process HTTP/1.1" 200 OK
+Saved frame 48: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M01S_1856.jpg (Fish detected)
+Saved frame 49: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M02S_1885.jpg (Fish detected)
+Saved frame 50: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M07S_2030.jpg (Fish detected)
+Saved frame 51: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M08S_2059.jpg (Fish detected)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     172.16.12.53:61174 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 52: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M09S_2088.jpg (Fish detected)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     172.16.12.53:58503 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 53: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M10S_2117.jpg (Fish detected)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     172.16.12.53:62391 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 54: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M11S_2146.jpg (Fish detected)
+Saved frame 55: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M12S_2175.jpg (Fish detected)
+Saved frame 56: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M13S_2204.jpg (Fish detected)
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010017.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010017 (rate=1.0)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010017/transcription.json
+Transcription not found.
+INFO:     172.16.12.53:64079 - "GET /api/transcription?video_name=GX010017 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:64079 - "OPTIONS /api/transcribe HTTP/1.1" 200 OK
+Transcribing /home/ohnuma/Marine/onlyvideo/GX010017.MP4...
+Loading Whisper model (base)...
+INFO:     172.16.12.53:55891 - "GET /api/annotations?video_name=GX010017&frame_index=0 HTTP/1.1" 200 OK
+/home/ohnuma/.local/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+INFO:     172.16.12.53:50654 - "POST /api/process HTTP/1.1" 200 OK
+Whisper model loaded on cuda
+Saved frame 1: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M00S_0.jpg (Fish detected)
+Saved frame 57: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M14S_2233.jpg (Fish detected)
+INFO:     172.16.12.53:50654 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 2: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M00S_29.jpg (Fish detected)
+Saved frame 3: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M01S_58.jpg (Fish detected)
+Transcription saved to /mnt/datasets/AnnotationTool/Transcriptions/GX010017/transcription.json
+INFO:     172.16.12.53:64079 - "POST /api/transcribe HTTP/1.1" 200 OK
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 58: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M15S_2262.jpg (Fish detected)
+Saved frame 4: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M02S_87.jpg (Fish detected)
+Saved frame 5: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M03S_116.jpg (Fish detected)
+Saved frame 6: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M04S_145.jpg (Fish detected)
+Saved frame 7: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M05S_174.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 59: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M16S_2291.jpg (Fish detected)
+Saved frame 8: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M06S_203.jpg (Fish detected)
+Saved frame 9: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M09S_290.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 10: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M10S_319.jpg (Fish detected)
+Saved frame 60: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M17S_2320.jpg (Fish detected)
+Saved frame 11: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M11S_348.jpg (Fish detected)
+Saved frame 12: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M12S_377.jpg (Fish detected)
+Saved frame 13: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M13S_406.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 14: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M14S_435.jpg (Fish detected)
+Saved frame 61: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M18S_2349.jpg (Fish detected)
+Saved frame 15: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M16S_493.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 16: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M17S_522.jpg (Fish detected)
+Saved frame 17: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M18S_551.jpg (Fish detected)
+Saved frame 62: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M19S_2378.jpg (Fish detected)
+Saved frame 18: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M19S_580.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 19: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M21S_638.jpg (Fish detected)
+Saved frame 63: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M20S_2407.jpg (Fish detected)
+Saved frame 20: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M23S_696.jpg (Fish detected)
+Saved frame 21: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M24S_725.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 64: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M21S_2436.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 22: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M28S_841.jpg (Fish detected)
+Saved frame 23: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M29S_870.jpg (Fish detected)
+Saved frame 24: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M29S_899.jpg (Fish detected)
+Saved frame 65: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M22S_2465.jpg (Fish detected)
+Saved frame 25: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M30S_928.jpg (Fish detected)
+Saved frame 26: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M31S_957.jpg (Fish detected)
+Saved frame 27: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M32S_986.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 66: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M23S_2494.jpg (Fish detected)
+Saved frame 28: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M33S_1015.jpg (Fish detected)
+Saved frame 29: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M34S_1044.jpg (Fish detected)
+Saved frame 30: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M35S_1073.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+Saved frame 31: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M36S_1102.jpg (Fish detected)
+Saved frame 67: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M24S_2523.jpg (Fish detected)
+Saved frame 32: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M37S_1131.jpg (Fish detected)
+Saved frame 33: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M38S_1160.jpg (Fish detected)
+INFO:     127.0.0.1:47696 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47696 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 67 cached frames.
+INFO:     127.0.0.1:47696 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47696 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+Saved frame 34: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M39S_1189.jpg (Fish detected)
+INFO:     172.16.12.53:64079 - "GET /api/progress/GX010017 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44888 - "POST /api/process HTTP/1.1" 200 OK
+Saved frame 35: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M40S_1218.jpg (Fish detected)
+Saved frame 36: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M41S_1247.jpg (Fish detected)
+Saved frame 37: /mnt/datasets/AnnotationTool/VideoFrame/GX010017/GX010017_T00M42S_1276.jpg (Fish detected)
+Extraction complete. Saved 37 frames.
+INFO:     172.16.12.53:57215 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010017.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:65270 - "GET /static/frames/GX010017/GX010017_T00M00S_0.jpg HTTP/1.1" 200 OK
+INFO:     172.16.12.53:64079 - "GET /api/annotations?video_name=GX010017&frame_index=0 HTTP/1.1" 200 OK
+Saved frame 68: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M26S_2581.jpg (Fish detected)
+INFO:     172.16.12.53:57215 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     172.16.12.53:65270 - "GET /data/crops/GX010017_T00M00S_0_fish_1764772927286_0.jpg HTTP/1.1" 200 OK
+INFO:     172.16.12.53:54872 - "GET /data/crops/GX010017_T00M00S_0_fish_1764772927290_1.jpg HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53394 - "GET /data/crops/GX010017_T00M00S_0_fish_1764772927294_2.jpg HTTP/1.1" 200 OK
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     127.0.0.1:44888 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+Saved frame 69: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M37S_2929.jpg (Fish detected)
+Saved frame 70: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M38S_2958.jpg (Fish detected)
+Saved frame 71: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M44S_3132.jpg (Fish detected)
+Saved frame 72: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M45S_3161.jpg (Fish detected)
+Saved frame 73: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M46S_3190.jpg (Fish detected)
+Saved frame 74: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M47S_3219.jpg (Fish detected)
+Saved frame 75: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M48S_3248.jpg (Fish detected)
+Saved frame 76: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M56S_3480.jpg (Fish detected)
+Saved frame 77: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T01M59S_3567.jpg (Fish detected)
+Saved frame 78: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M01S_3654.jpg (Fish detected)
+Saved frame 79: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M02S_3683.jpg (Fish detected)
+Saved frame 80: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M03S_3712.jpg (Fish detected)
+Saved frame 81: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M05S_3770.jpg (Fish detected)
+Saved frame 82: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M06S_3799.jpg (Fish detected)
+Saved frame 83: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M07S_3828.jpg (Fish detected)
+Saved frame 84: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M09S_3886.jpg (Fish detected)
+Saved frame 85: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M10S_3915.jpg (Fish detected)
+Saved frame 86: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M16S_4089.jpg (Fish detected)
+Saved frame 87: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M17S_4118.jpg (Fish detected)
+Saved frame 88: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M18S_4147.jpg (Fish detected)
+Saved frame 89: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M19S_4176.jpg (Fish detected)
+Saved frame 90: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M21S_4234.jpg (Fish detected)
+Saved frame 91: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M25S_4350.jpg (Fish detected)
+Saved frame 92: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M30S_4524.jpg (Fish detected)
+Saved frame 93: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M32S_4582.jpg (Fish detected)
+Saved frame 94: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M33S_4611.jpg (Fish detected)
+Saved frame 95: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M35S_4669.jpg (Fish detected)
+Saved frame 96: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M36S_4698.jpg (Fish detected)
+Saved frame 97: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M38S_4756.jpg (Fish detected)
+Saved frame 98: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M44S_4930.jpg (Fish detected)
+Saved frame 99: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M54S_5220.jpg (Fish detected)
+Saved frame 100: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M57S_5307.jpg (Fish detected)
+Saved frame 101: /mnt/datasets/AnnotationTool/VideoFrame/GX010103/GX010103_T02M59S_5365.jpg (Fish detected)
+Extraction complete. Saved 101 frames.
+INFO:     172.16.12.53:53589 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:60101 - "GET /api/annotations?video_name=GX010017&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:53589 - "POST /api/process HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/DJI_20250808070331_0001_D.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/DJI_20250808070331_0001_D (rate=1.0)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/DJI_20250808070331_0001_D/transcription.json
+Transcription found.
+INFO:     127.0.0.1:50382 - "GET /api/transcription?video_name=DJI_20250808070331_0001_D HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    segments = json.load(f)
+NameError: name 'json' is not defined
+INFO:     127.0.0.1:50404 - "GET /api/annotations?video_name=DJI_20250808070331_0001_D&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/progress/DJI_20250808070331_0001_D HTTP/1.1" 200 OK
+INFO:     172.16.12.53:56722 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     172.16.12.53:56722 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 101 cached frames.
+INFO:     172.16.12.53:62202 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 101 cached frames.
+INFO:     127.0.0.1:55834 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /api/videos HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /api/videos HTTP/1.1" 200 OK
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010103.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010103 (rate=1.0)
+Found 101 cached frames.
+INFO:     127.0.0.1:55834 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010103.MP4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55834 - "POST /api/process HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55836 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "GET /static/frames/GX010103/GX010103_T00M00S_0.jpg HTTP/1.1" 200 OK
+INFO:     172.16.12.53:56722 - "GET /api/annotations?video_name=GX010103&frame_index=0 HTTP/1.1" 200 OK
+INFO:     172.16.12.53:62202 - "POST /api/process HTTP/1.1" 200 OK
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010103/transcription.json
+Transcription found.
+INFO:     127.0.0.1:55852 - "GET /api/transcription?video_name=GX010103 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 105, in app
+    response = await f(request)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/fastapi/routing.py", line 286, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+  File "/home/ohnuma/anaconda3/envs/fish_annotation/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/home/ohnuma/Marine/20251202_AnnotationTool/backend/api/endpoints.py", line 497, in get_transcription
+    print("Transcription found.")
+NameError: name 'json' is not defined
+Extracting frames from /home/ohnuma/Marine/onlyvideo/GX010051.MP4 to /mnt/datasets/AnnotationTool/VideoFrame/GX010051 (rate=1.0)
+Checking transcription at: /mnt/datasets/AnnotationTool/Transcriptions/GX010051/transcription.json
+Transcription not found.
+INFO:     127.0.0.1:55864 - "GET /api/transcription?video_name=GX010051 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55864 - "OPTIONS /api/process HTTP/1.1" 200 OK
+Saved frame 1: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M00S_0.jpg (Fish detected)
+INFO:     127.0.0.1:35536 - "GET /api/annotations?video_name=GX010051&frame_index=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55864 - "POST /api/process HTTP/1.1" 200 OK
+Transcribing /home/ohnuma/Marine/onlyvideo/GX010051.MP4...
+INFO:     127.0.0.1:55864 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 2: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M00S_59.jpg (Fish detected)
+INFO:     127.0.0.1:55864 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 3: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M01S_118.jpg (Fish detected)
+Saved frame 4: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M02S_177.jpg (Fish detected)
+INFO:     127.0.0.1:55864 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 5: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M03S_236.jpg (Fish detected)
+INFO:     127.0.0.1:55864 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 6: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M04S_295.jpg (Fish detected)
+INFO:     127.0.0.1:55864 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 7: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M05S_354.jpg (Fish detected)
+Saved frame 8: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M06S_413.jpg (Fish detected)
+Transcription saved to /mnt/datasets/AnnotationTool/Transcriptions/GX010051/transcription.json
+INFO:     127.0.0.1:35552 - "POST /api/transcribe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35552 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 9: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M07S_472.jpg (Fish detected)
+INFO:     127.0.0.1:35552 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 10: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M08S_531.jpg (Fish detected)
+Saved frame 11: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M09S_590.jpg (Fish detected)
+INFO:     127.0.0.1:35552 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+Saved frame 12: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M10S_649.jpg (Fish detected)
+INFO:     127.0.0.1:35552 - "GET /api/progress/GX010051 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+Saved frame 13: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M11S_708.jpg (Fish detected)
+Saved frame 14: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M12S_767.jpg (Fish detected)
+Saved frame 15: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M13S_826.jpg (Fish detected)
+Saved frame 16: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M14S_885.jpg (Fish detected)
+Saved frame 17: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M15S_944.jpg (Fish detected)
+Saved frame 18: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M16S_1003.jpg (Fish detected)
+Saved frame 19: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M17S_1062.jpg (Fish detected)
+Saved frame 20: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M18S_1121.jpg (Fish detected)
+Saved frame 21: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M19S_1180.jpg (Fish detected)
+Saved frame 22: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M20S_1239.jpg (Fish detected)
+Saved frame 23: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M21S_1298.jpg (Fish detected)
+Saved frame 24: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M22S_1357.jpg (Fish detected)
+Saved frame 25: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M23S_1416.jpg (Fish detected)
+Saved frame 26: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M24S_1475.jpg (Fish detected)
+Saved frame 27: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M25S_1534.jpg (Fish detected)
+Saved frame 28: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M26S_1593.jpg (Fish detected)
+Saved frame 29: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M28S_1711.jpg (Fish detected)
+Saved frame 30: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M29S_1770.jpg (Fish detected)
+Saved frame 31: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M30S_1829.jpg (Fish detected)
+Saved frame 32: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M31S_1888.jpg (Fish detected)
+Saved frame 33: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M32S_1947.jpg (Fish detected)
+Saved frame 34: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M33S_2006.jpg (Fish detected)
+Saved frame 35: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M34S_2065.jpg (Fish detected)
+Saved frame 36: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M35S_2124.jpg (Fish detected)
+Saved frame 37: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M36S_2183.jpg (Fish detected)
+Saved frame 38: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M37S_2242.jpg (Fish detected)
+Saved frame 39: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M38S_2301.jpg (Fish detected)
+Saved frame 40: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M39S_2360.jpg (Fish detected)
+Saved frame 41: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M40S_2419.jpg (Fish detected)
+Saved frame 42: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M41S_2478.jpg (Fish detected)
+Saved frame 43: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M42S_2537.jpg (Fish detected)
+Saved frame 44: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M43S_2596.jpg (Fish detected)
+Saved frame 45: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M44S_2655.jpg (Fish detected)
+Saved frame 46: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M45S_2714.jpg (Fish detected)
+Saved frame 47: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M46S_2773.jpg (Fish detected)
+Saved frame 48: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M47S_2832.jpg (Fish detected)
+Saved frame 49: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M48S_2891.jpg (Fish detected)
+Saved frame 50: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M49S_2950.jpg (Fish detected)
+Saved frame 51: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M50S_3009.jpg (Fish detected)
+Saved frame 52: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M51S_3068.jpg (Fish detected)
+Saved frame 53: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M52S_3127.jpg (Fish detected)
+Saved frame 54: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M53S_3186.jpg (Fish detected)
+Saved frame 55: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M54S_3245.jpg (Fish detected)
+Saved frame 56: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M55S_3304.jpg (Fish detected)
+Saved frame 57: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M56S_3363.jpg (Fish detected)
+Saved frame 58: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M57S_3422.jpg (Fish detected)
+Saved frame 59: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M58S_3481.jpg (Fish detected)
+Saved frame 60: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T00M59S_3540.jpg (Fish detected)
+Saved frame 61: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M00S_3599.jpg (Fish detected)
+Saved frame 62: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M01S_3658.jpg (Fish detected)
+Saved frame 63: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M02S_3717.jpg (Fish detected)
+Saved frame 64: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M02S_3776.jpg (Fish detected)
+Saved frame 65: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M03S_3835.jpg (Fish detected)
+Saved frame 66: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M04S_3894.jpg (Fish detected)
+Saved frame 67: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M05S_3953.jpg (Fish detected)
+Saved frame 68: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M09S_4189.jpg (Fish detected)
+Saved frame 69: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M10S_4248.jpg (Fish detected)
+Saved frame 70: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M11S_4307.jpg (Fish detected)
+Saved frame 71: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M15S_4543.jpg (Fish detected)
+Saved frame 72: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M17S_4661.jpg (Fish detected)
+Saved frame 73: /mnt/datasets/AnnotationTool/VideoFrame/GX010051/GX010051_T01M25S_5133.jpg (Fish detected)
+Extraction complete. Saved 73 frames.
+INFO:     127.0.0.1:55858 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FGX010051.MP4 HTTP/1.1" 200 OK
+Extraction complete. Saved 0 frames.
+INFO:     172.16.12.53:58027 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FDJI_20250808070331_0001_D.MP4 HTTP/1.1" 200 OK
+Extraction complete. Saved 0 frames.
+INFO:     127.0.0.1:50372 - "GET /api/frames?video_path=%2Fhome%2Fohnuma%2FMarine%2Fonlyvideo%2FDJI_20250808070331_0001_D.MP4 HTTP/1.1" 200 OK
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2894895]
