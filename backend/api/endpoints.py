@@ -7,6 +7,22 @@ from core.video_processing import extract_frames
 import cv2
 import numpy as np
 import json
+import time
+
+def cleanup_old_files(directory: str, max_age_seconds: int = 3600):
+    """Delete files in directory older than max_age_seconds."""
+    if not os.path.exists(directory):
+        return
+        
+    now = time.time()
+    for f in os.listdir(directory):
+        file_path = os.path.join(directory, f)
+        if os.path.isfile(file_path):
+            try:
+                if now - os.path.getmtime(file_path) > max_age_seconds:
+                    os.remove(file_path)
+            except Exception as e:
+                print(f"Error deleting old file {file_path}: {e}")
 
 router = APIRouter()
 
@@ -108,6 +124,9 @@ def process_region(request: ProcessRequest):
     """Run AI on the selected region."""
     if yolo_model is None:
         raise HTTPException(status_code=503, detail="AI model not initialized")
+
+    # Cleanup old crops (older than 1 hour)
+    cleanup_old_files("data/crops", max_age_seconds=3600)
 
     # Resolve frame_url to local path
     # URL: /static/frames/VideoName/File.jpg -> Local: settings.FRAME_CACHE_DIR/VideoName/File.jpg

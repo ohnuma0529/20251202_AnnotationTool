@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-def is_blurry(image, threshold=100.0) -> bool:
+def is_blurry(image, threshold=0.0) -> bool:
     """Check if image is blurry using Laplacian variance."""
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     variance = cv2.Laplacian(gray, cv2.CV_64F).var()

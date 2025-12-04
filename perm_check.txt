@@ -1,2 +1,0 @@
-os.stat_result(st_mode=16893, st_ino=37224449, st_dev=2081, st_nlink=4, st_uid=1002, st_gid=1002, st_size=4096, st_atime=1764770463, st_mtime=1764768954, st_ctime=1764768954)
-['VideoFrame', 'Annotations']

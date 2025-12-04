@@ -58,7 +58,7 @@ def preprocess_videos():
         # 2. Transcription
         print(f"  [Action] Transcribing {video_name} (Model: large)...")
         try:
-            transcribe_video(video_path, video_name, model_name="large", force=True)
+            transcribe_video(video_path, video_name, model_name="large", force=False)
         except Exception as e:
             print(f"  [Error] Transcription failed: {e}")
 
